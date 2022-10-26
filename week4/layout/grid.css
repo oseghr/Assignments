@@ -1,0 +1,101 @@
+html, body {
+    width: 90%;
+    padding: 0;
+    margin: 4rem auto;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    background: hsla(0, 0%, 100%, 0.75);
+    
+  }
+  
+  
+  h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 2.5rem;
+    color: hsl(0, 0%, 95%);
+  }
+  
+  p {
+    margin-top: 2.5rem;
+  }
+  
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: hsl(0, 0%, 95%); 
+    margin-top: 2rem;
+  }
+  
+  img {
+    width: 84px;
+    height: 54px;
+  }
+  
+  .card {
+    height: 60vh;
+    padding: 2.5rem;
+    position: relative;
+  }
+  
+  .card1 {
+    background: hsl(31, 77%, 52%);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .card2 {
+    background: hsl(184, 100%, 22%); 
+  }
+  
+  .card3 {
+    background: hsl(179, 100%, 13%);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .button {
+    border: none;
+    position: absolute;
+    outline: none;
+    border-radius: 1.6rem;
+    padding: 1rem 1.8rem;
+    background: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    bottom: 3rem;
+  }
+  
+  .card1 .button {
+    color: hsl(31, 77%, 52%);
+  }
+  .card2 .button {
+    color: hsl(184, 100%, 22%);
+  }
+  .card3 .button {
+    color: hsl(179, 100%, 13%);
+  }
+  
+  @media screen and (max-width:800px) {
+    body {
+      margin: 3rem auto;
+    }
+    .main {
+      margin: 5rem auto; 
+      grid-template-columns: 1fr;
+    }
+  
+    .card1 {
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      border-bottom-left-radius: 0;
+    }
+  
+    .card3 {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 8px;
+      border-bottom-left-radius: 8px;
+    }
+  }
+  
