@@ -7,6 +7,7 @@ The is a compilation of week 3, week 4 and week 5 projects.
 ## Acknowledgements
 
  - [W3 Schools](https://w3schools.com)
+ - [ReadMe Editor](https://readme.so/editor)
 
 ## 🚀 About Me
 I'm Ose Benson an aspiring full stack developer and design enthusiats.
